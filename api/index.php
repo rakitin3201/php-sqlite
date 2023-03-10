@@ -24,6 +24,6 @@ $statement->execute();
 
 $visits = $db->querySingle('SELECT COUNT(id) FROM "visits"');
 
-echo("User visits: $visits");
+echo("Nombre total de visiteurs : $visits");
 
 $db->close();
