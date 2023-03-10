@@ -6,7 +6,7 @@
 // var_dump($result->fetchArray());
 // $db->close();
 
-$db = new SQLite3('/tmp/db.sqlite', SQLITE3_OPEN_CREATE | SQLITE3_OPEN_READWRITE);
+$db = new SQLite3('/tmp/database.sqlite', SQLITE3_OPEN_CREATE | SQLITE3_OPEN_READWRITE);
 
 $db->query('CREATE TABLE IF NOT EXISTS "visits" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
