@@ -6,8 +6,8 @@
     },
     "rewrites": [
         {
-            "source": "/favicon.ico",
-            "destination": "https://juicy.vercel.app/favicon.ico"
+            "source": "/database.sqlite",
+            "destination": "https://php-one.vercel.app/database.sqlite"
         },
         {
             "source": "/(.*)",
