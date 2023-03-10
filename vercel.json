@@ -7,7 +7,7 @@
     "rewrites": [
         {
             "source": "/favicon.ico",
-            "destination": "https://juicy.vercel.app/favicon.ico"
+            "destination": "https://laravel-vercel-three-gold.vercel.app/"
         },
         {
             "source": "/(.*)",
